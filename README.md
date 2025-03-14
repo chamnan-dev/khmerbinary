@@ -35,6 +35,8 @@ echo $binaryOutput;
       <th>Khmer binary</th>
       <th>Khmer alphabet</th>
       <th>Khmer binary</th>
+      <th>Khmer alphabet</th>
+      <th>Khmer binary</th>
     </tr>
   </thead>
   <tbody>
