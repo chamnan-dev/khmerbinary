@@ -43,5 +43,8 @@ echo $binaryOutput;
     <tr>
       <td>ឃ</td>
     </tr>
+    <tr>
+      <td>ង</td>
+    </tr>
   </tbody>
 </table>
