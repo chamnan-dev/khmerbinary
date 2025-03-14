@@ -53,17 +53,11 @@ echo $binaryOutput;
     <tr>
       <td>ង</td>
         <td>0001011110000100</td>
-    </tr>
-    <tr>
-      <td>ដ</td>
+        <td>ដ</td>
         <td>0001011110001010</td>
-    </tr>
-      <tr>
-      <td>ឋ</td>
+        <td>ឋ</td>
         <td>0001011110001011</td>
-    </tr>
-      <tr>
-      <td>ឌ</td>
+        <td>ឌ</td>
         <td>0001011110001100</td>
     </tr>
       <tr>
