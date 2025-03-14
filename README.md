@@ -4,6 +4,9 @@
 </head>
 
 
+<img src="khmerbinary.png" alt="khmer binary code">
+
+
 
 
 ```php
