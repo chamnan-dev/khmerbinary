@@ -31,23 +31,21 @@ echo $binaryOutput;
     <tr>
       <th>Khmer alphabet</th>
       <th>Khmer binary</th>
+      <th>Khmer alphabet</th>
+      <th>Khmer binary</th>
+      <th>Khmer alphabet</th>
+      <th>Khmer binary</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>ក</td>
       <td>0001011110000000</td>
-    </tr>
-    <tr>
-      <td>ខ</td>
+        <td>ខ</td>
         <td>0001011110000001</td>
-    </tr>
-      <tr>
-      <td>គ</td>
+        <td>គ</td>
         <td>0001011110000010</td>
-    </tr>
-    <tr>
-      <td>ឃ</td>
+        <td>ឃ</td>
         <td>0001011110000011</td>
     </tr>
     <tr>
