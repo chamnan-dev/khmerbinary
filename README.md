@@ -6,7 +6,9 @@
 
 <img src="khmerbinary.png" alt="khmer binary code">
 
+# Convert Khmer Text To Binary Code With PHP
 
+Example below show you about khmer text to binary code by create function and called it.
 
 
 ```php
@@ -36,6 +38,41 @@ echo $binaryOutput;
 ?>
 
 ```
+
+# Convert Binary To Khmer Text With PHP code.
+
+```php
+<?php
+function binaryToKhmer($binaryString) {
+    $khmerText = '';
+
+    // Split the binary string into chunks of 16 bits (or more if needed)
+    $binaryChunks = str_split($binaryString, 16);
+
+    foreach ($binaryChunks as $binary) {
+        // Convert binary to decimal (Unicode code point)
+        $codePoint = bindec($binary);
+
+        // Convert the code point to a character
+        $char = mb_chr($codePoint, 'UTF-8'); // Get the character from the code point
+
+        // Append the character to the resulting text
+        $khmerText .= $char;
+    }
+
+    return $khmerText;
+}
+
+// Example usage
+$binaryInput = "0001011110000000"; // Example binary string
+$khmerText = binaryToKhmer($binaryInput);
+echo $khmerText;
+?>
+
+
+
+```
+
 <p>Khmer binary code</p>
 <table>
   <thead>
